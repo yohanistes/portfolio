@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+  
+  font-family: 'montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bg-light {
+  background-color: #3e3957!important;
+}
+body{
+  background-image: url(background-img.jpg);
+}
+
+.navbar a {
+  font-size: 24px;
+  font-weight: 700;
+
+}
+.navbar-togger {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+  background: #706262;
+
+}
+
+.navbar-nav .nav-link {
+  padding: 0.5rem 1rem;
+  border: 2px solid transparent;
+  text-decoration: none;
+  font-weight: 600;
+  color: #070606;
+  transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  border-top-color: #ca8a04;
+  border-bottom-color: #ca8a04;
+  color: #ca8a04;
+}
+
+/* Style the section */
+.section {
+  padding: 60px 0;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.text-center{
+  color: antiquewhite;
+}
+
+.about-text{
+  color: #ffffff;
+}
+
+/* Style the footer */
+footer {
+  background-color: #3aded3;
+  color: #0c0d08;
+  padding: 2rem 0;
+  position: relative;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer__links ul {
+  list-style: none;
+  display: flex;
+}
+
+.footer__links li {
+  margin-right: 20px;
+}
+
+.footer__links a {
+  text-decoration: none;
+  color: #141010;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer__links a:hover {
+  color: #ca8a04;
+}
+
+.footer__social {
+  display: flex;
+}
+
+.social-icon {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-right: 15px;
+}
+
+.footer__bottom {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.footer__bottom p {
+  font-size: 0.8rem;
+}
+
+/* Responsive image */
+.image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* Your existing styles */
+/* ... */
